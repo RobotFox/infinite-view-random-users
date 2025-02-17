@@ -1,4 +1,4 @@
-!-- ABOUT THE PROJECT -->
+<!-- ABOUT THE PROJECT -->
 
 ## A riguardo di Infinite View Random Users
 
