@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111822;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h2 {
+  color: aqua;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 48px;
+}
+
+h4 {
+  color: #fffbe6;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #056661;
+  padding: 20px 10px;
+}
+
+.card {
+  height: 40%;
+  border-radius: 5px;
+  background-color: #fffbe6;
+  overflow: hidden;
+  padding: 1rem;
+  margin-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: grid;
+  grid-template-areas:
+    "pic info button";
+  grid-template-columns: auto auto auto;
+  z-index: 5;
+}
+
+.card>div.pic {
+  grid-area: pic;
+}
+
+.card>div.info {
+  grid-area: info;
+}
+
+.card>div.button {
+  grid-area: button;
+}
+
+.card-container {
+  padding: 2px 16px;
+  text-align: left;
+}
+
+.appTitle {
+  color: #fffbe6;
+}
+
+.titleRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  padding-left: 15px;
+}
+
+.title h3 {
+  margin: 0px;
+  color: #056661;
+}
+
+.title p {
+  margin: 0px;
+  color: #111822;
+}
+
+.avatar {
+  height: 50px;
+  margin-top: 10px;
+  width: 50px;
+  border-radius: 55%;
+}
+
+.loading-text {
+  margin-top: 8px;
+  text-align: center;
+  color: #fffbe6;
+}
+
+.error-text {
+  margin-top: 8px;
+  text-align: center;
+  color: red;
+}
+
+.date-picker {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.datetime-input-edit-wrapper {
+  display: none;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.user-detail-button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  background-color: #056661;
+  color: #fffbe6;
+  font-size: 35px;
+}
+
+.list {
+  display: block;
+  overflow: auto;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  margin-top: 8px;
+  background-color: #fffbe6;
+  width: 730px;
+  max-width: 730px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.detail-title {
+  color: #056661;
+  font-size: 18px;
+}
+
+.detail-pic {
+  margin-top: 8px;
+  border-radius: 55%;
+}
+
+.detail-primary-title {
+  color: #111822;
+  font-size: 38px;
+}
+
+.detail-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 8px;
+  color: #fffbe6;
+  background-color: #056661;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card:hover {
+  opacity: 0.7;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.datepicker-box {
+  margin: auto;
+  margin-top: 8px;
+  background-color: #fffbe6;
+  width: 50%;
+}
+
+.datepicker-input {
+  text-align: center;
+}
+
+.date-picker {
+  width: 20px;
+  height: 20px;
+}
